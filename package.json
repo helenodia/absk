@@ -1,0 +1,32 @@
+{
+  "name": "absk",
+  "version": "1.0.0",
+  "description": "travel photography website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lausciampa/absk.git"
+  },
+  "keywords": [
+    "photography",
+    "travel",
+    "world",
+    "nofilter"
+  ],
+  "author": "Joe, Helen, Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lausciampa/absk/issues"
+  },
+  "homepage": "https://github.com/Lausciampa/absk#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0"
+  }
+}
