@@ -29,7 +29,12 @@ gulp.task('watch', () => {
 });
 
 gulp.task('javascript', () => {
-   return gulp.src('./js/*.js')
+   return gulp.src([
+   		'./node_modules/jquery/dist/jquery.js', 
+   		'./node_modules/popper.js/dist/umd/popper.js', 
+   		'./node_modules/bootstrap/dist/js/bootstrap.js', 
+   		'./js/*.js'
+   	])
         .pipe(concat('all.js'))
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
