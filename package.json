@@ -1,5 +1,5 @@
 {
-  "name": "absk",
+  "name": "bootstrap-demo",
   "version": "1.0.0",
   "description": "travel photography website",
   "main": "index.js",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Lausciampa/absk#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",
