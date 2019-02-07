@@ -3,11 +3,11 @@
 
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-
+@import "gallery.scss"
 // put our styles below to make sure bootstrap doesn't overwrite:;
 
-body {
-	background-color: white;
-}
+// body {
+// 	background-color: white;
+// }
 
 
