@@ -1,13 +1,13 @@
-@import "bootstrap.scss";
-@import "customisations.scss";
+// @import "bootstrap.scss";
+// @import "customisations.scss";
 
 
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
+// put our styles below to make sure bootstrap doesn't overwrite:;
 
 body {
 	background-color: red;
 }
 
 
-// @import "./node_modules/bootstrap/scss/bootstrap.scss";
