@@ -1,11 +1,31 @@
-.about-wrapper {
-
-	padding: 0px 150px 0px;
-
-};
-
-.profile-pic {
-	max-width: 40px;
+.about-hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/12_mountains2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 50%;
+	height: 300px;
 
 }
 
+.about-hero-text {
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.services {
+	background-color: #26252b;
+}
+
+.clients {
+	background-color: #26252b;
+}
+
+.whyus {
+	background-color: #26252b;
+}
