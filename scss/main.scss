@@ -1,0 +1,44 @@
+@font-face {
+font-family: "Tahu";
+src: url("../fonts/tahu/Tahu.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Raleway";
+src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+
+body {
+	background-color: #26252b;
+	font-family: "Raleway", serif;
+}
+
+p {
+	color: #888;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+	color: white;
+	font-weight: bold;
+}
+
+h3 {
+	color: #10828C;
+}
+
+h4 {
+	color: #10828C;
+}
+
+button {
+	background-color: #10828C;
+	border: none;
+	color: white;
+
+}

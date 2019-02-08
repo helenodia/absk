@@ -1,12 +1,12 @@
-// @import "bootstrap.scss";
-// @import "customisations.scss";
-
-
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
-// put our styles below to make sure bootstrap doesn't overwrite:;
+@import "main.scss";
+@import "header-footer.scss";
+@import "index.scss";
 @import "gallery.scss";
 @import "about.scss";
+
+
+@import "contact.scss";
 
 

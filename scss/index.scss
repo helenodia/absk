@@ -1,0 +1,57 @@
+.header-text {
+	position: absolute;
+	z-index: 2;
+	padding-top: 15em;
+}
+
+.hero-logo {
+	font-family: "Tahu", serif;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.about {
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about img {
+	height: 75%;
+	width: 75%;
+}
+.about span {
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc {
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+.camera-bg {
+	background-image: url(../images/camera-index.jpg);
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-img-padding {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.container-text-padding {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
