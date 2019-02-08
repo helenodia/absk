@@ -17,78 +17,53 @@
 </head>
 
 <body>
+  <div class="wrapper">
+
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">ABSK</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  <!-- end of navbar -->
-  <div class="navbar-wrapper">
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
+          <a class="navbar-brand js-scroll-trigger" href="index.html">ABSK</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </div>
+      </nav>
+    </header>
+
+  <!-- hero image -->
+  <section class="hero-image">
+      <div class="hero-text">
+        <h1>Contact Us</h1>
+<!--         <p>And I'm a Photographer</p>
+ -->      </div>
     </div>
-  </div>
+  </section>
 
-
-<!-- Contact Form  ================================================== -->
+<!-- Contact Form -->
 
     <section class="contact-form">
       <div class="container">
           
           <div class="row">
 
-              <div class="col-md-3">
-                
-              </div>
               <div class="col-md-6">
-                      <h2>Want to hear your thoughts</h2>
+                      <h2>Interested in working together?</h2>
+                      <p>Get in touch</p>
 
   <!--                 <form action="contact-us/" method="post" name="contact-form">
                       <input type="hidden" name="refering" value="Contact Us" /> -->
@@ -115,7 +90,10 @@
                     </form>
               </div>
 
-              <div class="col-md-3"></div>
+              <div class="col-md-6 google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9947.300798880018!2d-2.569062!3d51.443004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d2b943707d77fa3!2sDevelop+Me+Web+Development+Training!5e0!3m2!1sen!2suk!4v1549622840883" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+
               </div>
 
           </div>
@@ -152,7 +130,7 @@
   </footer>
 
   <script src="./dist/all.min.js"></script>
-
+  </div>
 </body>
 
 </html>
