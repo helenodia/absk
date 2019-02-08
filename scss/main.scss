@@ -1,13 +1,12 @@
 @font-face {
-font-family: "Tahu";
-src: url("../fonts/tahu/Tahu.ttf") format("truetype");
+	font-family: "Tahu";
+	src: url("../fonts/tahu/Tahu.ttf") format("truetype");
 }
 
 @font-face {
-font-family: "Raleway";
-src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+	font-family: "Raleway";
+	src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
 }
-
 
 body {
 	background-color: #26252b;
@@ -40,13 +39,16 @@ button {
 	background-color: #10828C;
 	border: none;
 	color: white;
-
 }
+
+.btn {
+	color: white;
+}
+
 
 li {
 	list-style-type: none;
 	color: #888;
-
 }
 
 a {
